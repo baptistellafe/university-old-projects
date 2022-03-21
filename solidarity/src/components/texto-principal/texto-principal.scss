@@ -1,0 +1,89 @@
+// FOLHA ESTILOS PARA O TEXTO PRINCIPAL DO SITE QUE FICA NO INDEX
+
+// FOLHAS IMPORTADAS
+@import "../../scss/variables";
+
+// CLASSES
+.texto-principal{
+    margin-top: 40px;
+    .botao-de-doacao{
+        .btn-doacao{
+            background: linear-gradient(to bottom,$verde-claro,$verde-escuro);
+            color: $branco;
+            opacity: 0.9;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+    .titulo-principal{
+        font-size: 26px;
+        color: $graphite;
+        font-weight: 300;
+    }
+    .paragrafo-principal{
+        font-size: 18px;
+        color: $graphite;
+        text-align: left;
+        font-weight: 300;
+    }
+}
+
+.telefone-membro{
+    color: $graphite;
+    .texto-membro{
+        padding-top: 10px;
+        margin: 0;
+    }
+    .numero-telefone{
+        margin: 0;
+        font-size: 12px;
+    }
+}
+
+.tabela-projetos {
+  &-header {
+    color: #555;
+  }
+
+  &-title {
+    color: #333;
+  }
+}
+
+.tabela-intituicoes {
+margin: 0 auto;
+
+  &-header {
+    color: #555;
+  }
+
+  &-title {
+    color: #333;
+  }
+}
+
+.btn-tabela {
+  background: #ba262b;
+  color: #fff;
+  border-bottom: 3px solid #a02125;
+
+  &:hover {
+    color: #FFF;
+    background: #a02125;
+  }
+}
+
+.card-ong {
+  border: none;
+  background: #FFF;
+  padding: 20px;
+  box-shadow: 3px 3px 10px #ddd;
+  border: 1px solid #DDD;
+  border-radius: 20px;
+
+  &-titulo {
+    color: #444;
+    margin: 0;
+  }
+}

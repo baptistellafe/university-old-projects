@@ -1,0 +1,131 @@
+// ARQUIVO SCSS DO PARALLAX (SERÁ COMPILADO PARA BUNDLE.MIN.CSS)
+
+// FOLHAS DE ESTILOS NECESSÁRIAS
+@import "../../scss/variables";
+
+// CLASSES
+// PARALLAX DO INDEX
+#parallax {
+    background: url('../img/parallax/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top    ;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .heart{
+        width: 120px;
+        height: 150px;
+        & img{
+            max-width: 100%;
+        }
+    }
+    .texto{
+        width: 600px;
+        height: 230px;
+        text-align: center;
+        .titulo-cadastro{
+            font-family: 'Caveat', cursive;
+            color: $branco;
+            padding: 20px;
+            text-shadow: 2px 2px $preto;
+            text-shadow: 2px 2px 10px $preto;
+            font-size: 52px;
+        }
+    }
+}
+#parallax-cadastro {
+    background: url('../img/parallax/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top    ;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    .heart{
+        width: 120px;
+        height: 150px;
+        & img{
+            max-width: 100%;
+        }
+    }
+    .texto{
+        width: 600px;
+        height: 150px;
+        text-align: center;
+        .titulo-cadastro{
+            font-family: 'Caveat', cursive;
+            color: $branco;
+            padding: 20px;
+            text-shadow: 2px 2px 10px $preto;
+            font-size: 52px;
+        }
+    }
+}
+#parallax-sobre {
+    background: url('../img/parallax/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center    ;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    .heart{
+        width: 120px;
+        height: 150px;
+        & img{
+            max-width: 100%;
+        }
+    }
+    .texto{
+        width: 600px;
+        height: 150px;
+        text-align: center;
+        .titulo-cadastro{
+            font-family: 'Caveat', cursive;
+            color: $branco;
+            padding: 20px;
+            text-shadow: 2px 2px 10px $preto;
+            font-size: 52px;
+        }
+    }
+}
+#parallax-contato {
+    background: url('../img/parallax/4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    .heart{
+        width: 120px;
+        height: 150px;
+        & img{
+            max-width: 100%;
+        }
+    }
+    .texto{
+        width: 600px;
+        height: 150px;
+        text-align: center;
+        .titulo-contato{
+            font-family: 'Caveat', cursive;
+            color: $branco;
+            padding: 20px;
+            text-shadow: 2px 2px 10px $preto;
+            font-size: 52px;
+        }
+    }
+}

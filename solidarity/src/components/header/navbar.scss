@@ -1,0 +1,70 @@
+// ARQUIVO SCSS DO NAVBAR (SERÁ COMPILADO PARA BUNDLE.MIN.CSS)
+
+// FOLHAS DE ESTILOS NECESSÁRIAS
+@import "../../scss/variables";
+
+// CLASSES
+.navbar-solidarity{
+    position: fixed;
+    width: 100%;
+    z-index:2;
+    background: $branco;
+    height: 80px;
+    border-bottom: 1px solid #e8e9ec;
+    top: 0px;
+    margin: 0;
+    border-top: 3px solid $vermelho;
+    box-shadow: 0 2px 6px rgba(0,0,0, .05);
+    & img{
+        opacity: 0.8;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+    .btn-navbar{
+        background: $vermelho;
+        color: $branco;
+        border-bottom: 3px solid #A02125;
+        &:hover{
+            background: #A02125;
+        }
+    }
+    .navbar-nav{
+        .nav-item{
+            .link{
+                color: $graphite;
+                opacity: 0.9;
+                &:HOVER{
+                    opacity: 1;
+                    color: $graphite-dark;
+                    transition: all 0.5s linear;
+                    text-decoration: none;
+                }
+            }
+            .dropdown-menu{
+                .sublink{
+                    color: $graphite;
+                    font-weight: 300;
+                    &:hover{
+                        color: $graphite-dark;
+                        transition: all 3s linear;
+                    }
+                }
+            }
+        }
+    }
+    .dropdown{
+        &-menu{
+            .dropdown-solidarity{
+                color: $graphite;
+                font-weight: 300;
+                opacity: 0.9;
+                &:HOVER{
+                    opacity: 1;
+                    color: $graphite-dark;
+                    transition: all 0.3s linear;
+                }
+            }
+        }
+    }
+};

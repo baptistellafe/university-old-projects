@@ -1,0 +1,23 @@
+// FOLHA DE ESTILOS PARA O FOOTER (SERÁ COMPILADO PARA O BUNDLE.CSS.MIN)
+
+// FOLHAS DE ESTILOS NECESSÁRIAS
+@import "../../scss/variables";
+
+//CLASSES
+.rodape{
+    width: 100%;
+    height: 63px;
+    background:$perola;
+    text-align: center;
+    border-bottom: 3px solid $preto;
+}
+.nav{
+  .nav-item{
+    .redes-sociais{
+      color: $graphite;
+      &:HOVER{
+        color: $graphite-dark;
+      }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+// FOLHA DE ESTILO PADRÃO
+
+// FOLHAS IMPORTADAS
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import "variables";
+
+.body{
+    background: linear-gradient(to bottom, $branco,$perola);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    font-weight: 300;
+}
+.body-cadastro{
+    background: linear-gradient(to bottom, $branco,$perola);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    font-weight: 300;
+}
+.body-contato{
+    background: linear-gradient(to bottom, $branco,$perola);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    font-weight: 300;
+}
+
+.text-center {
+    text-align: center;
+}
+
+//MENU
+.awesome-menu{
+    color: $graphite;
+    &:hover{
+        color: $vermelho;
+    }
+}
+//BACKGROUNDS
+.bg-solidarity{
+    background: $vermelho;
+}
+.bg-graphite{
+    background: $graphite;
+}
+// CORES
+.color-primary{
+    color: $vermelho;
+}
+
+.color-graphite{
+    color: $graphite;
+}
+
+.color-branco{
+    color: $branco;
+}
+//MODAL
+.modal-solidarity{
+    background: rgba(0,0,0,0.6);
+    .modal-dialog{
+        .modal-content{
+            .modal-header{
+                border: 0;
+                .titulo-modal{
+                    font-size: 16px;
+                }
+                .fechar-modal{
+                    color: $graphite;
+                    opacity: 1;
+                }
+            }
+            .modal-body{
+                .titulo-corpo-modal{
+                    font-size: 18px;
+                }
+                .link-form{
+                    color: red;
+                    text-decoration: none;
+                    color: $graphite;
+                    font-size: 12px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .modal-footer{
+                border: 0;
+                .btn-sucesso{
+                    background: $graphite;
+                    color: $branco;
+                }
+                .btn-falha{
+                    background: $vermelho;
+                    color: $branco;
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+}
+// TEXTOS
+b, strong{
+    font-weight: 500;
+}
+// BOTÕES
+.btn:active,
+.btn:focus,
+.btn:active {
+    box-shadow: none;
+    outline: 0;
+}
+// SECTIONS
+.section-divider{
+    background: url("../img/assets/section-divider.png") no-repeat center;
+    width: 603px;
+    height: 18px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.sessao {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+//PAGINA DE CADASTRO
+.cadastro-container{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    .titulo-principal{
+        font-size: 26px;
+        color: $graphite;
+        font-weight: 300;
+    }
+    .paragrafo-principal{
+        font-size: 18px;
+        color: $graphite;
+        text-align: center;
+        font-weight: 300;
+    }
+    input[type=radio] {
+    width: 16px;
+    height: 16px;
+    }
+    .botao-radio-cadastro{
+        margin-left: 20px;
+    }
+}
+.cadastro-container{
+  height: 100%;
+  text-align: center;
+
+}
+.formulario-de-cadastro{
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+    & .titulo-cadastro{
+      color: $graphite;
+      font-weight: normal;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .nav{
+    .nav-item{
+      .link-tab{
+        color: $branco;
+        background: $graphite;
+        &:HOVER{
+          background: $graphite-dark;
+          color: $branco;
+        }
+        &:ACTIVE, &:VISITED, &:FOCUS{
+          background: $vermelho;
+        }
+      }
+    }
+  }
+}
